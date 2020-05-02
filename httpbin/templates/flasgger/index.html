@@ -207,6 +207,8 @@
     })
 }
     </script> {% if tracking_enabled %} {% include 'trackingscripts.html' %} {% endif %} {% include 'footer.html' %}
+
+  <div id="background-image" style="width: 1px; height: 1px; position: fixed; z-index: -1; background-image: url('{{url_for('static', filename='image.jpg')}}')"></div>
 </body>
 
 </html>
